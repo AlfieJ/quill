@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormControl, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -7,5 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'quilltest';
-  editorValue: any;
+
+  ctrl = new FormControl();
+  group = new FormGroup({
+      ctrl: this.ctrl
+  });
 }

@@ -1,3 +1,11 @@
 img {
   position: relative;
 }
+
+/* .mat-form-field-type-richeditor.mat-form-field-can-float .mat-form-field-label-wrapper, .mat-form-field-type-file.mat-form-field-can-float .mat-form-field-label-wrapper {
+    top: -22px;
+ }
+
+ .mat-form-field-type-richeditor.mat-form-field-should-float .mat-form-field-label-wrapper, .mat-form-field-type-file.mat-form-field-should-float .mat-form-field-label-wrapper {
+    top: -8px;
+ } */

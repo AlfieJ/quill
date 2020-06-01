@@ -1,3 +1,4 @@
-<div class="content" role="main">
-  <rich-editor [value]="editorValue" (changed)="editorValueChanged($event)"></rich-editor>
+<div class="content" role="main" [formGroup]="group">
+  <span>Current editor's value: {{ctrl.value}}</span>
+  <rich-editor formControlName="ctrl"></rich-editor>
 </div>
